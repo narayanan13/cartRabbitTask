@@ -1,0 +1,3 @@
+The sample video recording includes the app installation, fetching products from the store on post-installation and editing individual and product's title in bulk.
+
+To preview usse the link - https://www.loom.com/share/8e11d08d64a64524b1fd8fdeee33db20?sid=015feb2c-6579-48ba-b190-2c6ec9768e84 

@@ -3,17 +3,22 @@
 client_id = "c818c1f2fcba97ef64c3bec34bc4a08b"
 name = "ProductInfo"
 handle = "productinfo-3"
-application_url = "https://example.com/"
+application_url = "https://wage-fri-duke-gsm.trycloudflare.com"
 embedded = true
 
 [build]
 include_config_on_deploy = true
+automatically_update_urls_on_dev = true
 
 [webhooks]
 api_version = "2025-04"
 
 [auth]
-redirect_urls = [ "https://example.com/api/auth" ]
+redirect_urls = [
+  "https://wage-fri-duke-gsm.trycloudflare.com/auth/callback",
+  "https://wage-fri-duke-gsm.trycloudflare.com/auth/shopify/callback",
+  "https://wage-fri-duke-gsm.trycloudflare.com/api/auth/callback"
+]
 
 [pos]
 embedded = false

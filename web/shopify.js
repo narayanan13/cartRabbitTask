@@ -20,6 +20,7 @@ const shopify = shopifyApp({
   api: {
     apiVersion: LATEST_API_VERSION,
     restResources,
+    scopes: ['read_products', 'write_products'],
     future: {
       customerAddressDefaultFix: true,
       lineItemBilling: true,
